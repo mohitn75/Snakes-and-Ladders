@@ -34,7 +34,7 @@ public class GameServiceImpl implements GameService{
                 System.out.printf("%s current position: %d\n", currentPlayer.getPlayerName(), currentPosition);
             }
             else{
-                System.out.printf("%s overshot the last tile current position: %d\n", currentPlayer.getPlayerName(), currentPlayer.getPlayerPosition());
+                System.out.printf("%s overshot the last tile, current position: %d\n", currentPlayer.getPlayerName(), currentPlayer.getPlayerPosition());
             }
         }
     }
